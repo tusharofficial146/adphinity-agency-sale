@@ -11,9 +11,8 @@ const Navbar: React.FC = () => {
                 <div className="flex justify-between h-20 items-center">
                     <div className="flex items-center space-x-6">
                         {/* Logo */}
-                        <Link to="/" className="flex-shrink-0 flex items-center gap-2">
-                            <div className="w-8 h-8 bg-primary neo-border rounded-full"></div>
-                            <span className="font-black text-2xl tracking-tight">ADPHINITY</span>
+                        <Link to="/" className="flex-shrink-0 flex items-center">
+                            <img src="/adphinity_logo.png" alt="Adphinity Logo" className="h-12 w-auto" />
                         </Link>
 
                         {/* Desktop Menu */}
