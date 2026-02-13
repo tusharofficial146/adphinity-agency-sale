@@ -7,8 +7,9 @@ const Footer: React.FC = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20 border-b border-neutral-800 pb-12">
                     <div className="md:col-span-5">
-                        <Link to="/" className="block mb-6">
-                            <img src="/adphinity_logo.png" alt="Adphinity Logo" className="h-10 w-auto brightness-0 invert" />
+                        <Link to="/" className="flex items-center gap-3 mb-6">
+                            <img src="/adphinity_logo.png" alt="Adphinity Logo" className="h-10 w-auto" />
+                            <span className="font-black text-3xl tracking-tight text-white">ADPHINITY</span>
                         </Link>
 
                         <p className="text-neutral-400 text-lg mb-8 max-w-sm">
