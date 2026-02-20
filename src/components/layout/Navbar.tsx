@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
                         {/* Logo */}
                         <Link to="/" className="flex-shrink-0 flex items-center gap-3">
                             <img src="/adphinity_logo.png" alt="Adphinity Logo" className="h-10 w-auto" />
-                            <span className="font-black text-2xl tracking-tight">Adphinity</span>
+                            <span className="font-black text-2xl tracking-tight">Rajesh Hello</span>
                         </Link>
 
                         {/* Desktop Menu */}
